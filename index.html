@@ -17,12 +17,11 @@
     <button id="settings-btn" class="settings-btn">
       <i class="fas fa-cog"></i>
     </button>
-
     <div id="settings" class="settings">
-      <form id="settings-form">
+      <form action="" id="settings-form">
         <div>
           <label for="difficulty">Difficulty</label>
-          <select id="difficulty">
+          <select name="" id="difficulty">
             <option value="easy">Easy</option>
             <option value="medium">Medium</option>
             <option value="hard">Hard</option>
@@ -34,19 +33,18 @@
     <div class="container">
       <h2>👩‍💻 Speed Typer 👨‍💻</h2>
       <small>Type the following:</small>
-
-      <h1 id="word"></h1>
+      <h1 id="word">Test</h1>
 
       <input
         type="text"
+        name=""
         id="text"
         autocomplete="off"
-        placeholder="Type the word here..."
+        placeholder="type the word here..."
       />
 
-      <p class="time-container">Time left: <span id="time">10s</span></p>
-
-      <p class="score-container">Score: <span id="score">0</span></p>
+      <p class="time-container">Time Left : <span id="time">10 sec</span></p>
+      <p class="score-container">Score : <span id="score"></span></p>
 
       <div id="end-game-container" class="end-game-container"></div>
     </div>
